@@ -47,11 +47,13 @@ npm install
 
 ## 🔐 Create `.env` File
 
-Create a file named `.env` in the root folder:
+Run this command in the root folder to create the .env file:
 
-```env
-PRIVATE_KEY=yourprivatekeyhere
-```
+<pre><code>nano .env</code></pre>
+Then paste this content:
+
+<pre><code>PRIVATE_KEY=yourprivatekeyhere</code></pre>
+Press Ctrl + O then Enter to save, and Ctrl + X to exit nano.
 
 ---
 
