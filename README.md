@@ -50,7 +50,7 @@ npm install
 Create a file named `.env` in the root folder:
 
 ```env
-PRIVATE_KEY=0xyourprivatekeyhere
+PRIVATE_KEY=yourprivatekeyhere
 ```
 
 ---
