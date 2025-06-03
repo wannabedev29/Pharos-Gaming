@@ -2,7 +2,10 @@
   "name": "pharostestnet",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.js",
+  "description": "",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +19,5 @@
     "ethers": "^6.14.3",
     "figlet": "^1.8.1",
     "gradient-string": "^3.0.0"
-  },
-  "main": "index.js",
-  "description": ""
+  }
 }
