@@ -1,26 +1,90 @@
-Automated Pharos Network Testnet Interaction Script
-This script automates daily interactions with the Pharos Network testnet, including claiming faucets, swapping tokens, adding liquidity, and more. Designed for efficiency and reliability.
+# 🧪 Pharos Network Testnet Automation Script
 
-Features
-Daily Automation: Runs every 12 hours
+This script automates daily interactions with the Pharos Network testnet, including:
 
-Secure: Private key stored in .env file
+- ✅ Claiming faucets  
+- 🔄 Swapping tokens  
+- 💧 Adding liquidity  
+- 📤 Sending native PHRS tokens to random addresses  
+- 📊 Viewing profile and points  
 
-Faucet Claims: Automatic PHRS and USDT faucet claims
+Designed for efficiency and reliability.
 
-Token Swaps: WPHRS → USDC and WPHRS → USDT
+---
 
-Liquidity Provision: Adds liquidity to WPHRS/USDC pool
+## 🚀 Features
 
-Profile Tracking: Displays user profile and points
+- ⏱ **Daily Automation:** Automatically runs every 12 hours  
+- 🔒 **Secure:** Private key is securely stored in `.env`  
+- 🔁 **Token Swaps:**  
+  - `WPHRS → USDC`  
+  - `WPHRS → USDT`  
+- 💧 **Liquidity Provision:** Adds liquidity to `WPHRS/USDC` pool  
+- 🧾 **Profile Tracking:** Displays user profile & points  
+- 🎯 **Token Distribution:** Sends PHRS to 10 random addresses from `PHAROSSS.txt`  
+- 🌈 **User-Friendly UI:** Colorful terminal with emojis and banner  
 
-Token Distribution: Sends PHRS to random addresses
+---
 
-User-Friendly UI: Colorful console output with emojis
+## ⚙️ Prerequisites
 
-Prerequisites
-Node.js v18+
+- Node.js v18+  
+- npm v9+  
+- `.env` file with your private key  
+- Testnet wallet with test PHRS  
 
-npm v9+
+---
 
-Pharos Network Testnet Wallet (with testnet PHRS)
+## 📦 Installation
+
+```bash
+git clone https://github.com/wannabedev29/Pharos-Gaming.git
+cd Pharos-Gaming
+npm install
+```
+
+---
+
+## 🔐 Create `.env` File
+
+Create a file named `.env` in the root folder:
+
+```env
+PRIVATE_KEY=0xyourprivatekeyhere
+```
+
+---
+
+## ▶️ Run the Script
+
+```bash
+node index.js
+```
+
+Script will automatically:
+
+- Login to Pharos  
+- Claim faucet  
+- Wrap PHRS  
+- Swap tokens  
+- Add liquidity  
+- Send PHRS to 10 random addresses  
+- Wait 12 hours and repeat  
+
+---
+
+## 📁 File Structure
+
+```
+Pharos-Gaming/
+├── index.js         # Main script
+├── .env             # Your private key
+├── PHAROSSS.txt     # List of addresses to receive PHRS
+└── README.md
+```
+
+---
+
+## 📜 License
+
+MIT
