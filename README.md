@@ -27,12 +27,6 @@ npm v9+
 
 Pharos Network Testnet Wallet (with testnet PHRS)
 
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/yourusername/pharos-automation.git
-cd pharos-automation
 Install dependencies:
 
 bash
